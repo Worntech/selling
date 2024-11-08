@@ -1,0 +1,220 @@
+{% extends 'web/base1.html' %}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html><html class="no-js" lang="zxx"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="{% static 'web/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/LineIcons.3.0.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/tiny-slider.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/glightbox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/main.css' %}">
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+   
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+
+    <!-- End Header Area -->
+
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">About Us</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li><a href="{% url 'home' %}"><i class="lni lni-home"></i> Home</a></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Start About Area -->
+    <section class="about-us section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left">
+                        <img src="{% static 'web/images/about-img.jpg' %}" alt="#">
+                        <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&amp;fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM" class="glightbox video"><i class="lni lni-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right">
+                        <h2>Wornshop - Your Trusted &amp; Reliable Partner.</h2>
+                        <p>We sell and buy used things online and phisical, welcome and enjoy our services, all the morden product are found in wornshop, we are reliable and supply all the area around Tanzania country.</p>
+                        <p>We support online payment to our custers, that is that, you can order product in any time to wornshop, and the time of transisting is to short, welcome and enjoy the services with wornshop, the centre of product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+
+    <!-- Start Team Area -->
+    <section class="team section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Core Team</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Our team for receiving and suppliying goods.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Team -->
+                    <div class="single-team">
+                        <div class="image">
+                            <img src="{% static 'web/images/01.jpg' %}" alt="#">
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Grace Wright</h3>
+                                <h5>Founder, CEO</h5>
+                                <ul class="social">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Team -->
+                    <div class="single-team">
+                        <div class="image">
+                            <img src="{% static 'web/images/02.jpg' %}" alt="#">
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Taylor Jackson</h3>
+                                <h5>Financial Director</h5>
+                                <ul class="social">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Team -->
+                    <div class="single-team">
+                        <div class="image">
+                            <img src="{% static 'web/images/03.jpg' %}" alt="#">
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Quinton Cross</h3>
+                                <h5>Marketing Director</h5>
+                                <ul class="social">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Start Single Team -->
+                    <div class="single-team">
+                        <div class="image">
+                            <img src="{% static 'web/images/04.jpg' %}" alt="#">
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Liana Mullen</h3>
+                                <h5>Lead Designer</h5>
+                                <ul class="social">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-skype"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Team -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Team Area -->
+
+    <!-- Start Footer Area -->
+
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+
+        //========= glightbox
+        GLightbox({
+            'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoplayVideos': true,
+        });
+    </script>
+
+
+</body></html>
+
+{% endblock %}
